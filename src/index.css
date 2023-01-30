@@ -1,0 +1,96 @@
+.homepage {
+  left: 20%;
+  position: absolute;
+  /* background-color: bisque; */
+  display: flex;
+  align-self: center;
+  justify-content: center;
+   
+
+
+
+
+} 
+.employee-container {
+  
+ background-color: rgb(226, 221, 215); 
+  width: 280px;
+  /* heigh0t: 80px; */
+  margin: .2rem;
+  display: flex;
+  padding: 0.5rem;
+  border: 1px solid rgb(150, 148, 148);
+  box-shadow: 2px 2px 6px rgb(115, 126, 126);
+
+}
+
+.sbar{
+  padding-left: 10px;
+  background-color: rgb(255, 255, 255);
+  left: 12px;
+  top: 6px;
+  width: 260px;
+  height: 25px;
+  position: relative;
+  border: 1px solid rgb(221, 220, 220);
+ border-radius: 8px;
+ box-shadow: 2px 2px 6px rgb(151, 167, 167);
+  
+  
+}
+.employee-list {
+  position: absolute;
+  top: 250px;
+  background-color: rgb(221, 221, 221);
+  margin-top: 250px;
+  /* display:relative; */
+  width: 600px;
+  margin-top: 2rem;
+  border: none;
+  border: 2px solid rgb(155, 155, 155);
+}
+.person-img {
+  
+  height: 5rem;
+  width: 5rem;
+  border: 2px solid rgb(190, 189, 189);
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+
+.employee-info {
+  padding-left: 8px;
+ 
+}
+.header{
+  text-align: center;
+  font-style: italic ;
+  color: rgb(248, 239, 239);
+
+  position: relative;
+  top: 190px;
+  left: 302px;
+  background-color: rgb(110, 110, 110);
+  width: 600px;
+  height: 30px;
+  text-align: 25%;
+  padding-top: 5px;
+  border: 2px solid gray;
+  /* box-shadow: 2px 2px 6px rgb(157, 158, 158); */
+}
+.searchbar{
+  
+  background-color: rgb(194, 194, 194);
+  height: 42px;
+  width: 600px;
+  top: 240px;
+  position: relative;
+  left: -302px;
+  border: 2px solid gray;
+  /* box-shadow: 2px 2px 6px rgb(157, 158, 158); */
+}
+.employee-title{
+  
+  color: rgb(99, 98, 98);
+}
